@@ -6,8 +6,9 @@ descargado en el siguiente link: https://nodejs.org/es/download/
 
 Pasos para instalar dependencias y ejecutar las pruebas:
 
-1. Descomprmir la carpeta prueba_globant.zip dentro de una carpeta nombrada a su gusto
-2. Ejecute el comando "npm install" desde la carpeta creada con una linea de comandos (git bash)
+1. Clona este repositorio en la carpeta de su elección con "git clone https://github.com/DaniloBurgos/prueba_globant.git"
+2. Accede a la carpeta main "cd prueba_globant"
+3. Ejecute el comando "npm install" desde la carpeta creada con una linea de comandos (git bash)
 
 Una vez descargadas todas las dependencias indicadas en el archivo "package.json" puede ejecutar las pruebas
 tanto de e2e como de API de dos formas distintas:
