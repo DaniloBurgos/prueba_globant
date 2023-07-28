@@ -1,0 +1,17 @@
+{
+  "name": "cypress-pruebabancopichincha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui_test": "cypress run --spec \"cypress/e2e/buy_objects.spec.js\"",
+    "api_test": "cypress run --spec \"cypress/integration/API/api_user_crud.spec.js\"",
+    "suite": "cypress run --spec \"cypress/**/*.spec.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.2"
+  }
+}

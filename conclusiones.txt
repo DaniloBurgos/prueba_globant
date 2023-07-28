@@ -1,0 +1,17 @@
+Luego de realizar ambas pruebas sugeridas en el documento "Reto3-BancoPichincha.pdf" se concluye que:
+
+PRUEBA E2E:
+1. Es posible realizar el flujo completo de compra de dos elementos como lo requiere la prueba.
+2. Al iniciar el checkout se redirecciona la URL en modo seguro, lo que nos obliga a incluir
+   cy.origin() para continuar con el test y generalmente entrega un error 'uncaught:exception' lo
+   que nos obliga a hacer un handle ese tipo de error.
+3. Exiten elementos que no corresponden a sus categorías, ej: cámaras, celulares
+   y computadores portátiles en la categoría "Desktops".
+4. Existen categorías vacías e incongruencias en los filtros.
+5. El código entregado ha sido comentado y explicado
+
+PRUEBA API
+1. Es posible realizar un flujo de creación, lectura y actualización de usuarios.
+2. Los endpoints y la documentación proporcionada son funcionales y congruentes para la prueba.
+3. Es posible obtener códigos status de respuesta exitosos.
+4. Los endpoints validados en la prueba no requieren tokens de autorización. 
